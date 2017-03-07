@@ -1,0 +1,82 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #116688;
+	color: #FFFF00;
+	font-size: 16 px;
+	font-family: Verdana, Liberation;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #FFFF00;
+}
+
+a:VISITED {
+	color: #EEEE00;
+}
+
+ol, ul {
+	line-height: 200%;
+}
+
+nav ul {
+	color: #FFFF00;
+	list-style-type: circle;
+	margin-top: 30px;
+}
+
+.ender {
+	text-align: right;
+	font-size: 12px;
+	line-height: 150%;
+	float: right;
+}
+
+.imgLogo {
+	text-align: left;
+	border-bottom: 3px solid;
+	margin-bottom: 6px;
+	padding-bottom: 15px;
+}
+
+.apres {
+	text-align: center;
+}
+
+header {
+	display: block;
+	margin-bottom: 1px;
+}
+
+nav {
+	display: block;
+	width: 20%;
+	float: left;
+}
+
+section {
+	display: block;
+	width: 77%;
+	float: right;
+}
+
+.listaConsoles {
+	color: #115566;
+	background-color: #FFFFFF;
+	padding: 10px 10px 10px 50px;
+	margin: 30px 10px 10px 10px;
+	border: 4px solid #000066;
+}
+
+.listaConsoles ul {
+	color: #770077;
+	list-style-type: circle;
+}
+
+.listaConsoles .preco {
+	color: #CC0000;
+}
